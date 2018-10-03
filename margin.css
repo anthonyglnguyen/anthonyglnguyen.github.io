@@ -1,0 +1,29 @@
+.margin {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+#marginsoft {
+	margin-left: 110px;
+}
+.nomargin {
+	margin-left: -8px;
+	margin-right: -6px;
+	margin-top:-10px;
+	width: 101.5%;
+}
+#heading_space{
+    padding-bottom: 20px;
+}
+#content_space{
+    padding-bottom: 250px;
+}
+#end_space{
+    padding-bottom: 50px;
+}
+#quote_margin{
+	padding-bottom: 60px;
+}
+.resume_title{
+	padding-top: 25px;
+	text-align: center;
+}
