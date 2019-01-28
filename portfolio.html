@@ -1,27 +1,27 @@
 <!doctype html>
-    <html>
-        <head>
-            <meta charset = "utf-8">
-            <title> Portfolio </title>
-			<link href = "style.css" rel = "stylesheet" type = "text/css"/>
-			<link href = "margin.css" rel = "stylesheet" type = "text/css"/>
-			<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        </head>
-        <body>
-            <div = "title">
-				<p id = "class" class = "title_item">AP Computer Science Principles</p>
-				<p id = "name" class = "title_item"> Anthony G. Nguyen </p>
-			</div>
-            <ul id = "nav">
-				<li id ="home_page"> <a href = "index.html"> HOME </a> </li>
-				<li id ="about_page"> <a href = "about.html"> ABOUT </a> </li>
-				<li id = "resume_page"> <a href = "resume.html"> RESUME </a> </li>
-				<li id = "portfolio_page"> <a href = "portfolio.html"> PORTFOLIO </a> </li>
-			</ul>
-			<style>
+<html>
+ <head>
+   <meta charset = "utf-8">
+   <title> Portfolio </title>
+   <link href = "style.css" rel = "stylesheet" type = "text/css"/>
+   <link href = "margin.css" rel = "stylesheet" type = "text/css"/>
+   <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div = "title">
+			<p id = "class" class = "title_item">AP Computer Science Principles</p>
+			<p id = "name" class = "title_item"> Anthony G. Nguyen </p>
+		</div>
+    <ul id = "nav">
+			<li id ="home_page"> <a href = "index.html"> HOME </a> </li>
+			<li id ="about_page"> <a href = "about.html"> ABOUT </a> </li>
+			<li id = "resume_page"> <a href = "resume.html"> RESUME </a> </li>
+			<li id = "portfolio_page"> <a href = "portfolio.html"> PORTFOLIO </a> </li>
+		</ul>
+		<style>
                 body {
                   margin: 0;
                   font-size: 28px;
@@ -73,7 +73,7 @@
                   padding-top: 60px;
                 }
             </style>
-            <script>
+    <script>
       	window.onscroll = function() {myFunction()};
         var nav = document.getElementById("nav");
         var sticky = nav.offsetTop;
@@ -85,57 +85,84 @@
           }
         }
       </script>
-            <div ></div>
-            <div class = "content">
-              <h2 class = "margin">Title: Out-of-Time</h2><hr>
-              <img class = "" src = "timeTitle.PNG" alt = "coolio"/>
-              <img class = "" src = "timeGame.PNG" alt = "coolio"/>
-              <br><hr><br>
-              <a href = "https://scratch.mit.edu/projects/258846623/#player" id = "linkGame" class = "margin" target = "_blank"> Out-of-Time </a>
-              <br><hr><br>
-              <div id = "about">
-              <h3 class = "margin">Description</h3>
-              <hr>
-              <h5 class = "margin">Context/Story:</h5>
-              <p class = "margin">There is a big bad man from Maplestory who wants to steal everyone's literal time because he is the antagonist and
+    <div class = "content">
+      <ul>
+        <h2 class = "margin">Projects</h2>
+        <hr>
+        <li><a href = "#1" id = "porfolioNav">Out-of-Time</a> </li>
+        <br>
+        <li><a href = "#2" id = "porfolioNav">Batman: The Trilogy</a></li>
+      </ul>
+    </div>
+    <div class = "content">
+      <h2 id = "#2" class = "margin">Title: Batman: The Trilogy</h2><hr>
+      <iframe height="400px" width="100%" src="https://repl.it/@Gia_LinhNguyen/GrowlingGleamingDebugmonitor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      <br><hr><br>
+      <a href = "https://docs.google.com/drawings/d/1defgsFSQB2uFoZEEUikkTinYt55nx2mz6rTJ0oczsH8/edit?usp=sharing" target="batmanStory.png">
+      <img src = "batmanStory.png" width="70%" height="50%"> </a>
+      <br><hr><br>
+      <div id = "about">
+        <h3 class = "margin">Description</h3>
+        <hr>
+        <h5 class = "margin">Context/Story:</h5>
+        <p class = "margin">The story follows Batman's origin story about the death of his parents; however, you killed his parents. Your next decisions determine what
+        happens to Bruce Wayne and you, the murderer, as you struggle to overcome internal moral conflicts.</p>
+        <hr>
+      </div>
+    </div>
+    
+    
+    
+    <div class = "content">
+      <h2 id = "#1" class = "margin">Title: Out-of-Time</h2><hr>
+      <img class = "" src = "timeTitle.PNG" alt = "coolio"/>
+      <img class = "" src = "timeGame.PNG" alt = "coolio"/>
+      <br><hr><br>
+      <a href = "https://scratch.mit.edu/projects/258846623/#player" id = "linkGame" class = "margin" target = "_blank"> Out-of-Time </a>
+      <br><hr><br>
+      <div id = "about">
+        <h3 class = "margin">Description</h3>
+        <hr>
+        <h5 class = "margin">Context/Story:</h5>
+        <p class = "margin">There is a big bad man from Maplestory who wants to steal everyone's literal time because he is the antagonist and
                 needs them to do his AP World History homework.</p>
-                <hr>
-                <h5 class = "margin">Scoring System:</h5>
-              <p class = "margin">Hit Points for both Mr. Boss Man and Mr. Player Man</p>
-              <hr>
-              <h5 class = "margin">Randomness</h5>
-              <p class = "margin">A variable value is used to determine Mr. Boss Man's attack patterns (when/where he attacks)</p>
-              <hr>
-              <h5 class = "margin">Difficulty:</h5>
-              <p class = "margin">At a certain point, when Mr. Player Man damages Mr. Boss Man enough, Mr. Boss Man says he is mad and his Hit Points and attack rate
+        <hr>
+        <h5 class = "margin">Scoring System:</h5>
+        <p class = "margin">Hit Points for both Mr. Boss Man and Mr. Player Man</p>
+        <hr>
+        <h5 class = "margin">Randomness</h5>
+        <p class = "margin">A variable value is used to determine Mr. Boss Man's attack patterns (when/where he attacks)</p>
+        <hr>
+        <h5 class = "margin">Difficulty:</h5>
+        <p class = "margin">At a certain point, when Mr. Player Man damages Mr. Boss Man enough, Mr. Boss Man says he is mad and his Hit Points and attack rate
                 increases</p>
-                <hr>
-              <h5 class = "margin">Game End:</h5>
-              <p class = "margin">The game ends when Mr. Player Man is sad and bad at the game because he lost and his Hit Points reached 0 before Mr. Boss Man's did</p>
-              <hr>
-              <h4 class = "margin">Reflection</h4>
-              <h5 class = "margin">Why did you make the game you created? What was the inspiration?</h5>
-              <p class = "margin">I made this game because I was obligated to. I was inspired to use Maplestory graphics because they look cool and I had no idea what
+        <hr>
+        <h5 class = "margin">Game End:</h5>
+        <p class = "margin">The game ends when Mr. Player Man is sad and bad at the game because he lost and his Hit Points reached 0 before Mr. Boss Man's did</p>
+        <hr>
+        <h4 class = "margin">Reflection</h4>
+        <h5 class = "margin">Why did you make the game you created? What was the inspiration?</h5>
+        <p class = "margin">I made this game because I was obligated to. I was inspired to use Maplestory graphics because they look cool and I had no idea what
                 else to use that would look better and I made a boss fight because it seemed to be the easiest thing to do at the time.</p>
-                <hr>
-              <h5 class = "margin">Identify two successful points in the development process of your game.</h5>
-              <p class = "margin">Mr. Player Man's movements and Mr. Boss Man's attack patterns</p>
-              <hr>
-              <h5 class = "margin">Identify two obstacles in the development process of your game. How did you overcome them?</h5>
-              <p class = "margin">The Health Bar system I wanted to use didn't like my Scratch game and I didn't like it either so I removed it. I wasn't able to do all
+        <hr>
+        <h5 class = "margin">Identify two successful points in the development process of your game.</h5>
+        <p class = "margin">Mr. Player Man's movements and Mr. Boss Man's attack patterns</p>
+        <hr>
+        <h5 class = "margin">Identify two obstacles in the development process of your game. How did you overcome them?</h5>
+        <p class = "margin">The Health Bar system I wanted to use didn't like my Scratch game and I didn't like it either so I removed it. I wasn't able to do all
                 the fancy things I wanted to do and solved this by "I didn't".</p>
-                <hr>
-              <h5 class = "margin">If you had more time or resources, what aspects of the game would you change or improve?</h5>
-              <p class = "margin">If I had more time, I would improve the title screen and the boss fight, so basically everything.</p>
-              <hr>
-              <h5 class = "margin">This is an important algorithm</h5>
-              <p class = "margin">This algorithm is used to animate the player walking towards the left side of the screen by checking the current costume, transitioning
+        <hr>
+        <h5 class = "margin">If you had more time or resources, what aspects of the game would you change or improve?</h5>
+        <p class = "margin">If I had more time, I would improve the title screen and the boss fight, so basically everything.</p>
+        <hr>
+        <h5 class = "margin">This is an important algorithm</h5>
+        <p class = "margin">This algorithm is used to animate the player walking towards the left side of the screen by checking the current costume, transitioning
                 to the costumes looped in the animation, checks when the player stops walking, and transitions back to the default costume.</p>
-              <img src = "leftWalk.PNG" class ="margin" alt = "requiremet">
-              <h5 class = "margin">More Blocks</h5>
-              <img src = "moreBlock.PNG" class ="margin" alt = "requiremet">
-              </div>
-            </div>
-            <div id = "end_space"></div>
-        </body>
-    </html>
+        <img src = "leftWalk.PNG" class ="margin" alt = "requiremet">
+        <h5 class = "margin">More Blocks</h5>
+        <img src = "moreBlock.PNG" class ="margin" alt = "requiremet">
+      </div>
+    </div>
+    <div id = "end_space"></div>
+  </body>
+</html>

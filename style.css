@@ -1,3 +1,8 @@
+#portfolioNav li a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
 #title{
     background-color: blue;
 	list-style-type: none;
